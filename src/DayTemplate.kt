@@ -1,4 +1,4 @@
-@file:Suppress("MagicNumber")
+@file:Suppress("MagicNumber", "ReplacePrintlnWithLogging")
 
 private const val DAY = "01"
 
