@@ -1,4 +1,4 @@
-@file:Suppress("MagicNumber", "ReplacePrintlnWithLogging")
+@file:Suppress("MagicNumber", "ReplacePrintlnWithLogging", "DuplicatedCode")
 
 private const val DAY = "01"
 
@@ -6,13 +6,9 @@ private const val PART1_CHECK = 0
 private const val PART2_CHECK = 0
 
 fun main() {
-    fun part1(input: List<String>): Int {
-        return input.size
-    }
+    fun part1(input: List<String>): Int = input.size
 
-    fun part2(input: List<String>): Int {
-        return input.size
-    }
+    fun part2(input: List<String>): Int = input.size
 
     println("Day $DAY")
     val testInput = readInput("Day${DAY}_test")
